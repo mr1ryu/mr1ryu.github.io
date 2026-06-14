@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>류종관 교수 | 전남대학교 건축학부</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* 신뢰감을 주는 네이비 톤 */
+            --secondary-color: #34495e;
+            --accent-color: #3498db; /* 강조를 위한 블루 톤 */
+            --bg-color: #f8f9fa;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
+
+        /* 헤더 섹션 */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            color: #bdc3c7;
+            font-weight: 300;
+        }
+
+        /* 메인 컨테이너 */
+        .container {
+            max-width: 900px;
+            margin: -2rem auto 2rem;
+            padding: 0 2rem;
+            position: relative;
+        }
+
+        /* 개별 콘텐츠 박스 */
+        section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.8rem;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        /* 리스트 스타일 */
+        ul.custom-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.custom-list li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 24px;
+        }
+
+        ul.custom-list li:before {
+            content: "■";
+            color: var(--accent-color);
+            font-size: 0.8em;
+            position: absolute;
+            left: 0;
+            top: 4px;
+        }
+
+        /* 배지 스타일 (키워드 강조) */
+        .badge {
+            display: inline-block;
+            background-color: #e8f4f8;
+            color: var(--accent-color);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        /* 링크 스타일 */
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* 푸터 */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            background-color: white;
+            border-top: 1px solid #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>류 종 관 (Jongkwan Ryu, Ph.D.)</h1>
+        <p>전남대학교 건축학부 학부장 / 교수<br>Professor, Department of Architecture, Chonnam National University</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>소개 (About)</h2>
+            <p>
+                건축공학과 건축음향 분야를 연구하며, 인간의 청각적 인지와 심리 반응을 고려한 최적의 건축 환경 조성을 목표로 합니다. 
+                최근에는 S-PINN(Stochastic-Physics Informed Neural Networks)과 같은 AI 기술을 소음 예측 및 평가에 접목하는 AX(AI Transformation) 연구와, EMA(Ecological Momentary Assessment)를 활용한 소음 심리 반응 평가 앱 개발 등을 통해 건축음향의 새로운 패러다임을 제시하고 있습니다.
+            </p>
+        </section>
+
+        <section id="research">
+            <h2>연구 분야 (Research Interests)</h2>
+            <div style="margin-bottom: 15px;">
+                <span class="badge">건축음향 (Architectural Acoustics)</span>
+                <span class="badge">소음 및 진동 (Noise & Vibration)</span>
+                <span class="badge">사운드스케이프 (Soundscape)</span>
+                <span class="badge">S-PINN 기반 AI 소음 예측</span>
+                <span class="badge">바닥충격음 (Floor Impact Noise)</span>
+            </div>
+            <ul class="custom-list">
+                <li><strong>건축음향 및 사운드스케이프:</strong> 복합 소음에 대한 심리적 인지(성가심, 소음 민감도 등) 및 ISO 15666 기준 평가</li>
+                <li><strong>AI 기반 건물환경 평가:</strong> 딥러닝 및 물리 기반 신경망을 활용한 건축물 내부 소음/진동 예측 모델링</li>
+                <li><strong>디지털 기술 융합:</strong> 소음 심리 반응 조사를 위한 모바일 애플리케이션 개발 및 데이터 분석</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>주요 활동 및 저서 (Recent Works & Activities)</h2>
+            <ul class="custom-list">
+                <li>전남대학교 건축학부 학부장 (2026 ~ 현재) 및 건축공학전공 중장기(10년) 발전계획 수립</li>
+                <li><strong>저서:</strong> 대학 전공 교재 『건축환경계획』 제11장 소음 및 진동 집필</li>
+                <li><strong>연구 과제:</strong> 한국연구재단(NRF), 한국토지주택공사(LH) 등과 협력한 건축음향 및 친환경 건축기술 연구 수행</li>
+                <li><strong>연구 성과:</strong> 소음 민감도 측정도구에 관한 체계적 문헌고찰(Systematic Review) 논문 게재 및 인포그래픽 기반 학술 발표</li>
+            </ul>
+        </section>
+
+        <section id="lab">
+            <h2>건축음향 연구실 (Architectural Acoustics Lab)</h2>
+            <p>
+                건축음향 연구실은 박사급 연구원 및 다수의 석·박사 과정 연구원들로 구성되어 있으며, 물리적 소음 제어 기술부터 음향 심리학, 최신 인공지능 예측 기술까지 아우르는 융복합 연구를 수행합니다.
+            </p>
+            <p>미래 건축 환경을 혁신할 열정 있는 연구원 및 대학원생을 상시 모집하고 있습니다.</p>
+        </section>
+
+        <section id="contact">
+            <h2>연락처 (Contact)</h2>
+            <p>연구 및 협력 문의는 아래 이메일로 연락해 주시기 바랍니다.</p>
+            <ul class="custom-list" style="margin-top: 15px;">
+                <li><strong>Office:</strong> 전남대학교 공과대학 건축학부</li>
+                <li><strong>Email:</strong> <a href="mailto:이메일주소입력">교수님 이메일 주소 입력</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/github아이디">github.com/github아이디</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Jongkwan Ryu. All rights reserved.<br>
+        Department of Architecture, Chonnam National University.
+    </footer>
+
+</body>
+</html>
